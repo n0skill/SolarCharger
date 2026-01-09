@@ -5139,7 +5139,7 @@
 	)
 	(text "Charging current limiting\nCharge current factor \ntyp: 300 A*Ohm\n\n1A charge (default): Set ISET to 300 Ohm\n500mA charge: cut JP1, sets ISET to 600 Ohm\n\n!! Set according to your cells charging current capabilities !!"
 		(exclude_from_sim no)
-		(at 66.04 99.06 0)
+		(at 31.75 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5306,7 +5306,7 @@
 		(uuid "9e29c40b-b155-4d95-ad8f-d0957aad715a")
 	)
 	(junction
-		(at 46.99 81.28)
+		(at 21.59 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb653bcd-65e1-498c-a916-9907b6b7d4b5")
@@ -5409,7 +5409,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 80.01) (xy 46.99 81.28)
+			(xy 21.59 85.09) (xy 21.59 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5459,7 +5459,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 81.28) (xy 46.99 81.28)
+			(xy 15.24 86.36) (xy 21.59 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5509,7 +5509,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 81.28) (xy 40.64 82.55)
+			(xy 15.24 86.36) (xy 15.24 87.63)
 		)
 		(stroke
 			(width 0)
@@ -5549,7 +5549,7 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 71.12) (xy 15.24 77.47)
+			(xy 30.48 35.56) (xy 30.48 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5609,7 +5609,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 81.28) (xy 53.34 82.55)
+			(xy 27.94 86.36) (xy 27.94 87.63)
 		)
 		(stroke
 			(width 0)
@@ -5659,7 +5659,7 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 92.71) (xy 15.24 93.98)
+			(xy 30.48 57.15) (xy 30.48 58.42)
 		)
 		(stroke
 			(width 0)
@@ -5979,7 +5979,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 99.06) (xy 40.64 100.33)
+			(xy 15.24 104.14) (xy 15.24 105.41)
 		)
 		(stroke
 			(width 0)
@@ -6229,7 +6229,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 90.17) (xy 53.34 92.71)
+			(xy 27.94 95.25) (xy 27.94 97.79)
 		)
 		(stroke
 			(width 0)
@@ -6259,7 +6259,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 81.28) (xy 53.34 81.28)
+			(xy 21.59 86.36) (xy 27.94 86.36)
 		)
 		(stroke
 			(width 0)
@@ -6339,7 +6339,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 91.44) (xy 40.64 90.17)
+			(xy 15.24 96.52) (xy 15.24 95.25)
 		)
 		(stroke
 			(width 0)
@@ -6511,7 +6511,7 @@
 	)
 	(global_label "ISET"
 		(shape input)
-		(at 46.99 80.01 90)
+		(at 21.59 85.09 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6521,7 +6521,7 @@
 		)
 		(uuid "542c6a0e-73c1-4ebf-9936-eb1e66d213c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.99 73.0939 90)
+			(at 21.59 78.1739 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6709,7 +6709,7 @@
 	)
 	(global_label "ILIM"
 		(shape input)
-		(at 15.24 71.12 90)
+		(at 30.48 35.56 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6719,7 +6719,7 @@
 		)
 		(uuid "d1b61c38-024d-40b7-9b01-785875dbd1c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.24 64.5251 90)
+			(at 30.48 28.9651 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6954,7 +6954,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 53.34 86.36 0)
+		(at 27.94 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6962,7 +6962,7 @@
 		(dnp no)
 		(uuid "06f7d9b5-b026-4d3e-a897-12897ad84a8c")
 		(property "Reference" "R11"
-			(at 54.864 85.09 0)
+			(at 29.464 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6971,7 +6971,7 @@
 			)
 		)
 		(property "Value" "600 ohm"
-			(at 54.864 87.63 0)
+			(at 29.464 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6980,7 +6980,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 51.562 86.36 90)
+			(at 26.162 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6989,7 +6989,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 86.36 0)
+			(at 27.94 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6998,7 +6998,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 86.36 0)
+			(at 27.94 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7092,7 +7092,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 40.64 95.25 90)
+		(at 15.24 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7101,7 +7101,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f6b07b4-d7b6-4e67-8e5b-65bd14c0a9d3")
 		(property "Reference" "JP1"
-			(at 43.18 93.9799 90)
+			(at 17.78 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7110,7 +7110,7 @@
 			)
 		)
 		(property "Value" "SJ2"
-			(at 43.18 96.5199 90)
+			(at 17.78 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7119,7 +7119,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
-			(at 40.64 95.25 0)
+			(at 15.24 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7128,7 +7128,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 95.25 0)
+			(at 15.24 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7137,7 +7137,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 40.64 95.25 0)
+			(at 15.24 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8085,7 +8085,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 40.64 86.36 0)
+		(at 15.24 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8093,7 +8093,7 @@
 		(dnp no)
 		(uuid "30919b40-afbe-4ad0-8b0f-65f0869ce931")
 		(property "Reference" "R3"
-			(at 41.91 85.09 0)
+			(at 16.51 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8102,7 +8102,7 @@
 			)
 		)
 		(property "Value" "600 ohm"
-			(at 41.91 87.63 0)
+			(at 16.51 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8111,7 +8111,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 38.862 86.36 90)
+			(at 13.462 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8120,7 +8120,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 86.36 0)
+			(at 15.24 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8129,7 +8129,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 86.36 0)
+			(at 15.24 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9040,7 +9040,7 @@
 	(symbol
 		(lib_name "GND_3")
 		(lib_id "power:GND")
-		(at 15.24 93.98 0)
+		(at 30.48 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9049,7 +9049,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d8843e2-85a8-496a-8f54-cbbaece4294d")
 		(property "Reference" "#PWR031"
-			(at 15.24 100.33 0)
+			(at 30.48 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9058,7 +9058,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 15.24 99.06 0)
+			(at 30.48 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9066,7 +9066,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 15.24 93.98 0)
+			(at 30.48 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9075,7 +9075,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 15.24 93.98 0)
+			(at 30.48 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9084,7 +9084,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 15.24 93.98 0)
+			(at 30.48 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9378,7 +9378,7 @@
 	(symbol
 		(lib_name "GND_6")
 		(lib_id "power:GND")
-		(at 40.64 100.33 0)
+		(at 15.24 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9387,7 +9387,7 @@
 		(fields_autoplaced yes)
 		(uuid "7973aae3-d06f-4c17-ab3f-ccd56cd06935")
 		(property "Reference" "#PWR015"
-			(at 40.64 106.68 0)
+			(at 15.24 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9396,7 +9396,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 105.41 0)
+			(at 15.24 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9404,7 +9404,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 100.33 0)
+			(at 15.24 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9413,7 +9413,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 100.33 0)
+			(at 15.24 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9422,7 +9422,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 100.33 0)
+			(at 15.24 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10332,7 +10332,7 @@
 		(dnp no)
 		(uuid "b67772f4-90e5-44eb-afa4-828c89b1bce3")
 		(property "Reference" "JP1_1100mA_4.2v1"
-			(at 16.51 52.07 90)
+			(at 20.32 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10341,7 +10341,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 16.51 54.61 90)
+			(at 22.86 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10527,7 +10527,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 15.24 81.28 0)
+		(at 30.48 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10536,7 +10536,7 @@
 		(fields_autoplaced yes)
 		(uuid "c7e7b1aa-9166-4dae-a024-b8b68ba4585e")
 		(property "Reference" "R2"
-			(at 17.78 80.645 0)
+			(at 33.02 45.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10545,7 +10545,7 @@
 			)
 		)
 		(property "Value" "18 Kohm"
-			(at 17.78 83.185 0)
+			(at 33.02 47.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10554,7 +10554,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 13.462 81.28 90)
+			(at 28.702 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10563,7 +10563,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 15.24 81.28 0)
+			(at 30.48 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10572,7 +10572,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 15.24 81.28 0)
+			(at 30.48 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10930,34 +10930,33 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 15.24 88.9 90)
+		(at 30.48 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dcd010e6-7f7b-4927-bb0f-a699a73ffd27")
 		(property "Reference" "JP2_500mA_4.2v1"
-			(at 17.78 88.265 90)
+			(at 34.29 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 17.78 90.805 90)
+			(at 36.83 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 15.24 88.9 0)
+			(at 30.48 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10966,7 +10965,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 15.24 88.9 0)
+			(at 30.48 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10975,7 +10974,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 15.24 88.9 0)
+			(at 30.48 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11532,7 +11531,7 @@
 	(symbol
 		(lib_name "GND_6")
 		(lib_id "power:GND")
-		(at 53.34 92.71 0)
+		(at 27.94 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11541,7 +11540,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7f2af46-0c4f-4da4-a0d9-fec255dae9ce")
 		(property "Reference" "#PWR02"
-			(at 53.34 99.06 0)
+			(at 27.94 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11550,7 +11549,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 97.79 0)
+			(at 27.94 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11558,7 +11557,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 92.71 0)
+			(at 27.94 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11567,7 +11566,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 92.71 0)
+			(at 27.94 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11576,7 +11575,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 92.71 0)
+			(at 27.94 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
