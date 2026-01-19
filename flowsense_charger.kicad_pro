@@ -52,7 +52,60 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "starved_thermal|39029333|69000000|b2a0607b-dbda-41bf-9ca9-b2f30d60d3a6|099a87ac-6b85-42b2-9c8e-8e0af0efe020|F.Cu",
+          "Provided by polygon"
+        ],
+        [
+          "starved_thermal|39748000|71934000|8d2b2e09-d336-41a9-87c4-7b035e7477ee|f2461f25-0b35-43f6-a2b2-f92bf3e03316|B.Cu",
+          "Provided by polygon gnd plane"
+        ],
+        [
+          "starved_thermal|39748000|73434000|8d2b2e09-d336-41a9-87c4-7b035e7477ee|f2461f25-0b35-43f6-a2b2-f92bf3e03316|B.Cu",
+          "Provided by polygon"
+        ],
+        [
+          "starved_thermal|39998000|71054000|b2a0607b-dbda-41bf-9ca9-b2f30d60d3a6|f2461f25-0b35-43f6-a2b2-f92bf3e03316|F.Cu",
+          "Provided by polygon"
+        ],
+        [
+          "starved_thermal|39998000|71134000|b2a0607b-dbda-41bf-9ca9-b2f30d60d3a6|f2461f25-0b35-43f6-a2b2-f92bf3e03316|F.Cu",
+          "Provided by polygon"
+        ],
+        [
+          "starved_thermal|40498000|71054000|b2a0607b-dbda-41bf-9ca9-b2f30d60d3a6|f2461f25-0b35-43f6-a2b2-f92bf3e03316|F.Cu",
+          "Provided by polygon"
+        ],
+        [
+          "starved_thermal|40498000|71134000|b2a0607b-dbda-41bf-9ca9-b2f30d60d3a6|f2461f25-0b35-43f6-a2b2-f92bf3e03316|F.Cu",
+          "Provided by polygon"
+        ],
+        [
+          "starved_thermal|40748000|71934000|8d2b2e09-d336-41a9-87c4-7b035e7477ee|f2461f25-0b35-43f6-a2b2-f92bf3e03316|B.Cu",
+          "Provided by polygon"
+        ],
+        [
+          "starved_thermal|40748000|73434000|8d2b2e09-d336-41a9-87c4-7b035e7477ee|f2461f25-0b35-43f6-a2b2-f92bf3e03316|B.Cu",
+          "Provided by polygon"
+        ],
+        [
+          "starved_thermal|44429333|68794537|b2a0607b-dbda-41bf-9ca9-b2f30d60d3a6|40c658d1-cab6-4619-9727-0f780a6496e6|F.Cu",
+          "Provided by polygon"
+        ],
+        [
+          "starved_thermal|45966833|73434000|b2a0607b-dbda-41bf-9ca9-b2f30d60d3a6|4f8f8cec-9bab-4250-9234-6b6261733908|F.Cu",
+          "Thermal relief provided by polygon"
+        ],
+        [
+          "starved_thermal|45966833|73934000|b2a0607b-dbda-41bf-9ca9-b2f30d60d3a6|c48ba3c4-335a-4880-a2b2-1ab06b0ab2b7|F.Cu",
+          "Provided by polygon"
+        ],
+        [
+          "starved_thermal|46350000|70344537|b2a0607b-dbda-41bf-9ca9-b2f30d60d3a6|4776893b-24fe-440a-b9fc-b2e661e86bbf|F.Cu",
+          "Thermal relief provided by polygon plan"
+        ]
+      ],
       "meta": {
         "version": 2
       },

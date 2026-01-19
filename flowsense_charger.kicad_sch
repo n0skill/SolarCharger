@@ -10288,7 +10288,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b67772f4-90e5-44eb-afa4-828c89b1bce3")
-		(property "Reference" "JP1_1100mA_4.2v1"
+		(property "Reference" "1100mA_4.2v1"
 			(at 20.32 52.07 0)
 			(effects
 				(font
@@ -10342,7 +10342,7 @@
 		(instances
 			(project "flowsense_charger"
 				(path "/06a81c65-da63-44d6-adfc-3d6276b1b4c5"
-					(reference "JP1_1100mA_4.2v1")
+					(reference "1100mA_4.2v1")
 					(unit 1)
 				)
 			)
@@ -10895,7 +10895,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dcd010e6-7f7b-4927-bb0f-a699a73ffd27")
-		(property "Reference" "JP2_500mA_4.2v1"
+		(property "Reference" "500mA_4.2v1"
 			(at 34.29 72.39 0)
 			(effects
 				(font
@@ -10949,7 +10949,7 @@
 		(instances
 			(project "flowsense_charger"
 				(path "/06a81c65-da63-44d6-adfc-3d6276b1b4c5"
-					(reference "JP2_500mA_4.2v1")
+					(reference "500mA_4.2v1")
 					(unit 1)
 				)
 			)
@@ -11309,7 +11309,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f2ca1b16-e1ff-43cd-8503-abb65cd6a77c")
