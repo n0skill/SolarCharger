@@ -10954,7 +10954,7 @@
 		)
 	)
 	(gr_text "Chrg curr limit:\nDefault: 1A. Cut JP1 to\nset to 500mA.\nCheck your\ncell properties !\n"
-		(at 61.5 62.7 270)
+		(at 61.2 62.7 270)
 		(layer "F.SilkS")
 		(uuid "88c24cf3-01d3-4250-a72b-3acafbc30177")
 		(effects
